@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Ripley Coder Dojo Present List</title>
     <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 <style>
     body {
@@ -18,18 +19,19 @@
             <img src="assets/images/coderdojo.svg" class="h-50 w-50 mt-10 mb-10"/>
             <div class="text-white ml-5">
                 <ul>
-                    <li class="block"><a href="#">Books</a></li>
-                    <li class="block"><a href="#">Subscription Websites</a></li>
-                    <li class="block"><a href="#">Robots</a></li>
-                    <li class="block"><a href="#">Programmable Electronics</a></li>
+                    <li class="block" id="menuBooks"><a href="#">Books</a></li>
+                    <li class="block" id="menuSubscriptionWebsites"><a href="#">Subscription Websites</a></li>
+                    <li class="block" id="menuRobots"><a href="#">Robots</a></li>
+                    <li class="block" id="menuProgrammableElectronics"><a href="#">Programmable Electronics</a></li>
                 </ul>
             </div>
         </div>
-        <div class="main w-11/12 h-screen border-2 border-white">
+        <div id="content" class="w-11/12 h-screen border-2 border-white">
             werwer
         </div>
 
     </div>
 </div>
+<script src="src/main.js"></script>
 </body>
 </html>
