@@ -1,0 +1,30 @@
+/* purgecss start ignore */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+/* purgecss end ignore */
+@import 'tailwindcss/utilities';
+
+@font-face {
+  font-family: LeagueGothic;
+  src: url("/assets/fonts/league_gothic/LeagueGothic-CondensedItalic.otf") format("opentype");
+  src: url("/assets/fonts/league_gothic/LeagueGothic-CondensedRegular.otf") format("opentype");
+  src: url("/assets/fonts/league_gothic/LeagueGothic-Regular.otf") format("opentype");
+  src: url("/assets/fonts/league_gothic/LeagueGothic-Regular.otf") format("opentype");
+}
+
+.ripley {
+  font-family: LeagueGothic-CondensedRegular;
+  font-size: 26px;
+  font-weight: bold;
+  font-style: normal;
+  color: white;
+}
+
+.container {
+  @apply w-full h-screen
+}
+
+
+.book {
+  @apply border-2 w-full h-full border-blue-900
+}
